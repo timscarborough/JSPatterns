@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<script data-main="js/main" src="js/lib/require.js"></script>
+	</head>	
+	<body>
+		<div class="page-header">
+			<h1>JSPatterns</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Bootstrap Tests
+						</div>
+						<div class="panel-body">
+							Modal 
+							<button id="testStart" type="button" class="btn btn-primary pull-right" data-toggle="modal">Run</button>
+						</div>
+						<div class="panel-body">
+							Alert
+							<button id="testAlert" type="button" class="btn btn-primary pull-right" data-toggle="alert">Run</button>
+							<div class="alert alert-warning fade in hidden" style="margin-top: 25px;">
+								<button type="button" class="close" data-dismiss="alert">&times;</button>
+								<strong>It works!</strong> Bootstrap alerts.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>			
+		<div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">Success</h4>
+					</div>
+					<div class="modal-body">
+						Both bootstrap and jquery are loaded.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</body>	
+</html>
