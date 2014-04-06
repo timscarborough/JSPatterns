@@ -1,10 +1,6 @@
 JSPatterns
 ==========
-My Javascript patterns for later reference.
-
-Purpose
---------------
-I wanted to have a publicly accessible place to reference useful Javascript patterns. 
+Javascript patterns for later reference.
 
 Sources
 --------------
